@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const MainHeader = styled.header`
 
-background-color: #2B4CBB;
+background-color: var(--primaria);
 
 
 

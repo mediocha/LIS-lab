@@ -1,3 +1,26 @@
+:root { /*definindo globalmente*/
+    --primaria: #2B4CB8;
+    --primaria-dark: #0C3197;
+    --primaria-light: #2F80ED;
+
+    --secundaria: #D81B60;
+    --secundaria-dark: #A00037;
+    --secundaria-light: #FF5C8D;
+
+    --branco: white;
+    --cinza: grey;
+
+    /*Tamanhos*/
+    --grande: 26px;
+    --medio: 16px;
+    --pequeno: 14px;
+
+    /*rem -- medida relacionada ao root*/
+    font-size: 62.5%;
+
+    
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,5 +33,5 @@ html, body, #root {
 }
 
 body {
-    background-color: white;
+    background-color: var(--branco);
 }
